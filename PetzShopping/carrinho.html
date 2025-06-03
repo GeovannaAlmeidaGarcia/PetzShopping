@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body id="carrinho">
+    <header>
+        <a href="index.html"><img src="logo.png" alt="Logo da Loja" id="logo" /></img></a>
+    </header>
+
+  <main id="carrinho">
+    <h1>Carrinho de Compras</h1>
+    <div class="carrinho-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Quantidade</th>
+            <th>Preço Unit.</th>
+            <th>Total</th>
+            <th>Remover</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Comedouro Lento</td>
+            <td><input type="number" min="1" value="2" /></td>
+            <td>R$ 79,90</td>
+            <td>R$ 159,80</td>
+            <td><button class="btn-remover">X</button></td>
+          </tr>
+          <tr>
+            <td>Caixa de Transporte</td>
+            <td><input type="number" min="1" value="1" /></td>
+            <td>R$ 149,90</td>
+            <td>R$ 149,90</td>
+            <td><button class="btn-remover">X</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="resumo">
+        <p><strong>Total: </strong>R$ 309,70</p>
+        <a href="login-finaliza.html"><button class="btn-finalizar">Finalizar Compra</button></a>
+      </div>
+    </div>
+
+    <section class="formas-pagamento">
+      <h2>Formas de Pagamento</h2>
+      <div class="icons">
+        <img src="visa.png" alt="Visa" title="Visa" />
+        <img src="mastercard.png" alt="MasterCard" title="MasterCard" />
+        <img src="amex.png" alt="American Express" title="American Express" />
+        <img src="pix.png" alt="Pix" title="Pix" />
+      </div>
+    </section>
+  </main>
+</body>
+</html>
