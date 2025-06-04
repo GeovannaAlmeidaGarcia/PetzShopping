@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Finalizar Compra</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body id="finaliza">
+  <header id="final">
+    <a href="index.html"><img src="logo.png" alt="Logo da Loja" id="logo" /></img></a>
+    <div class="cliente-msg">Olá, João Silva</div>
+  </header>
+
+  <main class="finaliza">
+    <h1>Finalizar Compra</h1>
+
+    <section class="dados-cliente">
+      <h2>Seus Dados</h2>
+      <p><strong>Nome:</strong> João Silva</p>
+      <p><strong>Email:</strong> joao@email.com</p>
+      <p><strong>Endereço:</strong> Rua das Flores, 123 - São Paulo, SP</p>
+    </section>
+
+    <section class="pagamento">
+      <h2>Escolha a forma de pagamento</h2>
+      <form>
+        <label>
+          <input type="radio" name="pagamento" value="cartao" checked>
+          Cartão de Crédito
+        </label><br>
+        <label>
+          <input type="radio" name="pagamento" value="boleto">
+          Boleto Bancário
+        </label><br>
+        <label>
+          <input type="radio" name="pagamento" value="pix">
+          Pix
+        </label><br><br>
+      </form>
+      <a href="finalizado.html" class="botao">
+        <button type="submit">Confirmar Compra</button>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
