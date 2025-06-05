@@ -542,7 +542,7 @@ input[type="number"] {
   }
 }
 
-/*Finalizar compra*/
+/*Finalizar compra e finalizado*/
 * {
   box-sizing: border-box;
 }
@@ -606,17 +606,18 @@ form label {
   font-size: 1rem;
 }
 
-button {
-  background-color: #000;
-  color: #fff;
-  padding: 12px 25px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.botao {
+  display: inline-block; /* Para permitir largura e altura */
+  padding: 10px 20px; /* Espaçamento interno */
+  background-color: #060606; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado padrão do link */
+  border-radius: 5px; /* Borda arredondada */
+  cursor: pointer; /* Indica que é clicável */
 }
 
-button:hover {
-  background-color: #333;
+.botao:hover {
+  background-color: #a29f9f; /* Cor ao passar o mouse */
 }
 
 @media (max-width: 600px) {
@@ -632,6 +633,27 @@ button:hover {
     width: 100%;
   }
 }
+
+/*intens do footer*/
+.itens{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
+.termos{
+  border-width: 10px;
+  margin-bottom: 10px;
+  gap: 50px;
+  font-size: 20px;
+}
+h2{
+  border-width: 10px;
+  margin-bottom: 10px;
+  gap: 50px;
+}
+.dados{
+  font-weight: bold;
+}
+
 
 
 
