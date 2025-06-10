@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Produto</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="logo.png" alt="Logo da Loja" id="logo" /></a>
+            <h1 class="itens-footer">PetzShopping para Braquicefálicos</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index2.html">Home Page</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="cadastros_realizados.html">Cadastros na plataforma</a></li>
+                    <li><a href="add_prod.html">Adicionar produto</a></li>
+                    <li><a href="ex_prod.html">Excluir produto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        
+            
+            <section class="editar">
+            <h1>Editar Produto</h1>
+                <ul>
+                    <!-- Produto 1 -->
+                    <li>
+                        <img src="caminhaAzul.png" alt="Produto 1" />
+                        <p class="nome_Produto">Cama Spike Quadrada Polka Azul para Cães e Gatos</p>
+                        
+                        <!-- Formulário de Edição -->
+                        <footer class="edt">
+                            <label for="valor" class="label">Valor:</label>
+                            <input type="number" id="valor" name="valor" value="100.00" step="0.01" required>
+
+                            <label for="quantidade" class="label">Quantidade:</label>
+                            <input type="number" id="quantidade" name="quantidade" value="5" min="1" required>
+
+                            <label for="descricao" class="label">Descrição:</label>
+                            <textarea id="descricao" name="descricao" rows="4" required>Cama confortável para cães e gatos, com design moderno.</textarea>
+                            
+                            <button type="submit" class="edit-btn">Salvar Alterações</button>
+                        </footer>
+                    </li>
+
+                    <!-- Produto 2 -->
+                    <li>
+                        <img src="arranhadorPapelao.png" alt="Produto 2" />
+                        <p class="nome_Produto">Arranhador de Papelão Cansei de Ser Gato</p>
+                        
+                        <!-- Formulário de Edição -->
+                        <footer class="edt">
+                            <label for="valor" class="label">Valor:</label>
+                            <input type="number" id="valor" name="valor" value="60.00" step="0.01" required>
+
+                            <label for="quantidade" class="label">Quantidade:</label>
+                            <input type="number" id="quantidade" name="quantidade" value="10" min="1" required>
+
+                            <label for="descricao" class="label">Descrição:</label>
+                            <textarea id="descricao" name="descricao" rows="4" required>Arranhador de papelão para gatos, resistente e divertido.</textarea>
+                            
+                            <button type="submit" class="edit-btn">Salvar Alterações</button>
+                        </footer>
+                    </li>
+
+                    <!-- Produto 3 -->
+                    <li>
+                        <img src="comedorMadeira.png" alt="Produto 3" />
+                        <p class="nome_Produto">Comedouro Cansei de Ser Gato Alto de Madeira Individual</p>
+                        
+                        <!-- Formulário de Edição -->
+                        <footer class="edt">
+                            <label for="valor" class="label">Valor:</label>
+                            <input type="number" id="valor" name="valor" value="120.00" step="0.01" required>
+
+                            <label for="quantidade" class="label">Quantidade:</label>
+                            <input type="number" id="quantidade" name="quantidade" value="8" min="1" required>
+
+                            <label for="descricao" class="label">Descrição:</label>
+                            <textarea id="descricao" name="descricao" rows="4" required>Comedouro de madeira individual, ideal para cães e gatos.</textarea>
+                            
+                            <button type="submit" class="edit-btn">Salvar Alterações</button>
+                        </footer>
+                    </li>
+                </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 PetzShopping para Braquicefálicos</p>
+    </footer>
+</body>
+</html>
